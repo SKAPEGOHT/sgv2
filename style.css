@@ -44,8 +44,14 @@
     padding: 1rem 1.5rem;
     display: inline-block;
   }
+
+  .nav-links li a:hover {
+    color: #00b7ff; /* Change the color when hovered */
+    text-decoration: underline; /* Add an underline when hovered */
+  }  
   
   .parallax {
+    background-color: aqua;
     background-image: url('your-image-url.jpg');
     background-attachment: fixed;
     background-position: center;
@@ -65,6 +71,22 @@
   .header-content h1 {
     font-size: 48px;
     margin-bottom: 1rem;
+  }
+
+  .header-button {
+    background-color: #005577;;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px; /* Create rounded corners */
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px; /* Add some space between the buttons */
+    transition: all 0.3s ease;
+  }
+  
+  .header-button:hover {
+    background-color: #00b7ff;; /* Change the background color on hover */
   }
   
   section {
