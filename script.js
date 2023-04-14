@@ -1,3 +1,5 @@
+// Hamburger Menu
+
 $(document).ready(function () {
     $('.hamburger-menu').click(function () {
       $(this).toggleClass('open');
@@ -12,3 +14,18 @@ $(document).ready(function () {
     });
   });
   
+// Main logo hover 
+
+const logo = document.querySelector(".logo img");
+
+logo.addEventListener("mouseover", () => {
+  const hoverSrc = logo.getAttribute("data-src");
+  logo.setAttribute("data-src", logo.src);
+  logo.src = hoverSrc;
+});
+
+logo.addEventListener("mouseout", () => {
+  const normalSrc = logo.getAttribute("data-src");
+  logo.setAttribute("data-src", logo.src);
+  logo.src = normalSrc;
+});
