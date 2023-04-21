@@ -29,3 +29,12 @@ logo.addEventListener("mouseout", () => {
   logo.setAttribute("data-src", logo.src);
   logo.src = normalSrc;
 });
+
+// Arrow CLicked 
+
+document.querySelector(".scroll-arrow").addEventListener("click", (event) => {
+  event.preventDefault(); // Prevent the default link behavior
+  const targetElement = document.querySelector("#main-content");
+  
+  targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
+});
