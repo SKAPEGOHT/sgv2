@@ -38,3 +38,20 @@ document.querySelector(".scroll-arrow").addEventListener("click", (event) => {
   
   targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
 });
+
+// smooth scroll to top 
+
+const scrollToTop = document.querySelector(".scroll-to-top");
+
+scrollToTop.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+// Show or hide scroll-to-top arrow based on scroll position
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    scrollToTop.classList.add("visible");
+  } else {
+    scrollToTop.classList.remove("visible");
+  }
+});
