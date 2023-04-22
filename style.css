@@ -241,4 +241,50 @@
     }
   }
   
+  /* Footer */
+
+footer {
+  background-color: #ffffff;
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border-top: 2.5px solid #272727;
+  flex-wrap: wrap;
+}
+
+.copyright {
+  color: #272727;
+  font-size: 14px;
+  text-align: center;
+  width: 100%; /* Add this line to make the copyright div take full width */
+  order: 3; /* Add this line to push the copyright div below the other two */
+  padding-top: 1rem; /* Add some padding to create space between the copyright text and the links/icons */
+}
+
+.footer-links,
+.social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  list-style: none;
+  text-align: center;
+  margin: 0 5rem;
+}
+
+.social-icon,
+.footer-links a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover,
+.footer-links a:hover {
+  color: rgb(174, 255, 44)  /* Change the color when hovered */
+}
+
+
   
