@@ -108,7 +108,7 @@
   }  
   
   .parallax {
-    background-image: url('img/2199583.jpg');
+    background-image: url('img/header_bg.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -331,7 +331,7 @@ footer {
 
 @font-face {
   font-family: 'Planet Kosmos';
-  src: url('fonts/plank___-webfont.woff2) format('woff2'),
+  src: url('fonts/plank___-webfont.woff2') format('woff2'),
        url('fonts/plank___-webfont.woff2') format('woff'),
        url('fonts/<font-file>.eot') format('embedded-opentype');
   font-weight: normal;
