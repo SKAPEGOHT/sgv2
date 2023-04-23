@@ -1,4 +1,4 @@
-// Hamburger Menu
+// hamburger Menu
 
 $(document).ready(function () {
     $('.hamburger-menu').click(function () {
@@ -14,7 +14,7 @@ $(document).ready(function () {
     });
   });
   
-// Main logo hover 
+// main logo hover 
 
 const logo = document.querySelector(".logo img");
 
@@ -30,10 +30,10 @@ logo.addEventListener("mouseout", () => {
   logo.src = normalSrc;
 });
 
-// Arrow CLicked 
+// arrow clicked 
 
 document.querySelector(".scroll-arrow").addEventListener("click", (event) => {
-  event.preventDefault(); // Prevent the default link behavior
+  event.preventDefault(); // prevent the default link behavior
   const targetElement = document.querySelector("#main-content");
   
   targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -47,7 +47,7 @@ scrollToTop.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
-// Show or hide scroll-to-top arrow based on scroll position
+// show or hide scroll-to-top arrow based on scroll position
 window.addEventListener("scroll", () => {
   if (window.pageYOffset > 100) {
     scrollToTop.classList.add("visible");
@@ -55,3 +55,21 @@ window.addEventListener("scroll", () => {
     scrollToTop.classList.remove("visible");
   }
 });
+
+// header typed out 
+
+const header = document.querySelector('#header');
+const text = header.textContent;
+header.textContent = '';
+
+for (let i = 0; i < text.length; i++) {
+  const span = document.createElement('span');
+  span.textContent = text[i];
+  span.style.animationDelay = `${i * 0.1}s`;
+  header.appendChild(span);
+}
+
+const cursor = document.createElement('span');
+cursor.className = 'cursor';
+header.appendChild(cursor);
+
