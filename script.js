@@ -1,4 +1,4 @@
-// hamburger Menu
+// hamburger menu
 
 $(document).ready(function () {
     $('.hamburger-menu').click(function () {
