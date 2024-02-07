@@ -11,6 +11,9 @@ $(document).ready(function () {
           $('.hamburger-menu').removeClass('open');
       }
   });
+   // Load the header and footer
+   $("#header-placeholder").load("header.html");
+   $("#footer-placeholder").load("footer.html");
 });
 
 // Main Logo Hover Effect
