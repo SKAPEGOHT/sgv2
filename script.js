@@ -1,63 +1,60 @@
-// hamburger menu
-
 $(document).ready(function () {
-    $('.hamburger-menu').click(function () {
+  // Hamburger Menu Functionality
+  $('.hamburger-menu').click(function () {
       $(this).toggleClass('open');
       $('.nav-links').slideToggle();
-    });
-  
-    $(window).resize(function () {
-      if ($(window).width() > 768) {
-        $('.nav-links').removeAttr('style');
-        $('.hamburger-menu').removeClass('open');
-      }
-    });
   });
-  
-// main logo hover 
 
+  $(window).resize(function () {
+      if ($(window).width() > 768) {
+          $('.nav-links').removeAttr('style');
+          $('.hamburger-menu').removeClass('open');
+      }
+  });
+});
+
+// Main Logo Hover Effect
 const logo = document.querySelector(".logo img");
 
 logo.addEventListener("mouseover", () => {
-  const hoverSrc = logo.getAttribute("data-src");
-  logo.setAttribute("data-src", logo.src);
+  const hoverSrc = logo.getAttribute("data-src-hover");
+  logo.setAttribute("data-src-hover", logo.src); // Swap the URLs
   logo.src = hoverSrc;
 });
 
 logo.addEventListener("mouseout", () => {
-  const normalSrc = logo.getAttribute("data-src");
-  logo.setAttribute("data-src", logo.src);
+  const normalSrc = logo.getAttribute("data-src-hover");
+  logo.setAttribute("data-src-hover", logo.src); // Swap back
   logo.src = normalSrc;
 });
 
-// arrow clicked 
+// Smooth Scroll for the Scroll-Arrow
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelector(".scroll-arrow").addEventListener("click", (event) => {
+    event.preventDefault(); // Prevent the default link behavior
+    const targetElement = document.querySelector("#main-content");
 
-document.querySelector(".scroll-arrow").addEventListener("click", (event) => {
-  event.preventDefault(); // prevent the default link behavior
-  const targetElement = document.querySelector("#main-content");
-  
-  targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
+    targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
 });
 
-// smooth scroll to top 
-
+// Smooth Scroll to Top Functionality
 const scrollToTop = document.querySelector(".scroll-to-top");
 
 scrollToTop.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
-// show or hide scroll-to-top arrow based on scroll position
+// Show or hide the scroll-to-top button based on scroll position
 window.addEventListener("scroll", () => {
   if (window.pageYOffset > 100) {
-    scrollToTop.classList.add("visible");
+      scrollToTop.classList.add("visible");
   } else {
-    scrollToTop.classList.remove("visible");
+      scrollToTop.classList.remove("visible");
   }
 });
 
-// header typed out 
-
+// Header Typed-Out Effect
 const header = document.querySelector('#header');
 const text = header.textContent;
 header.textContent = '';
@@ -72,4 +69,3 @@ for (let i = 0; i < text.length; i++) {
 const cursor = document.createElement('span');
 cursor.className = 'cursor';
 header.appendChild(cursor);
-
