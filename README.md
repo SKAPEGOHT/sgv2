@@ -2,6 +2,6 @@
 
   A more modern update to fit a more modern look such as a Y2K style design aesthetic. 
   
-  There is also added technologies such as Javascript, jQuery, and PHP.
+  Built with HTML, CSS, Javascript.
 
   

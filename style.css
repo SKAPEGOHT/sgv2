@@ -413,3 +413,24 @@ footer {
 .overlay i:hover {
   cursor: pointer;
 }
+
+/* On index.html */ 
+
+/* Remove underlines from links */
+  a {
+    text-decoration: none;
+  }
+  /* Style for the buttons */
+  .header-button-link {
+    text-decoration: none;
+    color: white; /* Change the color to your desired color */
+    background-color: rgb(59, 190, 177); /* Change the background color to your desired color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px; /* Adjust the margin as needed */
+    cursor: pointer;
+    display: inline-block;
+  }
+  .header-button-link:hover {
+    background-color: rgb(37, 130, 120) /* Change the hover background color to your desired color */
+  }
