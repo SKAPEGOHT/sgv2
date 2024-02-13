@@ -51,3 +51,9 @@ document.addEventListener("DOMContentLoaded", function () {
   cursor.className = 'cursor';
   header.appendChild(cursor);
 });
+
+//Remove the .html on Address Bar 
+
+if (location.href.substr(-5) == '.html') {
+  history.replaceState({}, '', location.href.slice(0, -5));
+}
