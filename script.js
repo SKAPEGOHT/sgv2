@@ -52,6 +52,13 @@ document.addEventListener("DOMContentLoaded", function () {
   header.appendChild(cursor);
 });
 
+//INDEX => HOME TEXT in Address Bar 
+
+if (window.location.pathname.endsWith("/index.html")) {
+  var newUrl = window.location.href.replace("/index.html", "/home");
+  window.history.replaceState({}, document.title, newUrl);
+}
+
 //Remove the .html on Address Bar 
 
 if (location.href.substr(-5) == '.html') {
