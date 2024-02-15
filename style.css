@@ -20,6 +20,13 @@
     background-color: #000000;
     border-bottom: 2.5px solid #ffffff; /* Add a thin outline to the nav bar */
   }
+
+    /* Target the space where time, battery percent, etc., are displayed */
+  /* Assuming it's a specific element like a container div */
+  .mobile-status-bar {
+    background-color: #000000; /* Match the background color of the navbar */
+  }
+}
   
   .logo {
     display: inline-block;
