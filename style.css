@@ -441,20 +441,8 @@ footer {
   } 
 
 /* Website Tinting in Safari */ 
-  :root {
-    --background-color: #ffffff; /* Light mode background color */
-    --text-color: #000000; /* Light mode text color */
-  }
-  
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --background-color: #000000; /* Dark mode background color */
-      --text-color: #ffffff; /* Dark mode text color */
-    }
-  }
-  
+@media screen and (max-width: 767px) { /* Adjust the max-width as needed for your mobile devices */
   body {
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background-color: #000000; /* Match the background color of the nav bar */
   }
-  
+}
