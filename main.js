@@ -2,6 +2,8 @@
 class MyHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
+        <meta name="theme-color" content="#000000" />
+
             <nav id="navbar">
                 <a href="index.html" class="logo">
                     <img class="logo-normal" src="img/sg_logo_nav.png" alt="Logo" />
