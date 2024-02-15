@@ -36,7 +36,7 @@
   .logo-hover {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -20px;
     height: 40px; /* Adjust the height to fit your design */
     width: auto;
     transition: opacity 0.3s ease; /* Add a smooth transition for the opacity */
