@@ -26,6 +26,14 @@
     background-color: #000000; /* Match the background color of the navbar */
   }
 
+  /* CSS for Safari Mobile */
+@media screen and (-webkit-touch-callout: none) {
+  /* Adjust background color of body or HTML */
+  body, html {
+      background-color: #000000; /* Match the background color of the navbar */
+  }
+}
+
   
   .logo {
     display: inline-block;
