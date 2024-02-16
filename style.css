@@ -67,11 +67,11 @@
   }
 
   .hamburger-menu:hover {
-    color: #48FCE9ff; /* Change the color when hovered */
+    color: #fe9850; /* Change the color when hovered */
   }
   
   .hamburger-menu:hover .bar {
-    background-color: #48FCE9ff; /* Change the color when hovered */
+    background-color: #fe9850; /* Change the color when hovered */
   }
   
   .hamburger-menu .bar {
@@ -97,7 +97,7 @@
   }
 
   .nav-links li a:hover {
-    color: rgb(0, 217, 225); /* Change the color when hovered */
+    color: #fe9850; /* Change the color when hovered */
     /* text-decoration: underline; /* Add an underline when hovered */
   }  
   
@@ -121,14 +121,14 @@
   
   .header-content {
     text-align: center;
-    color:rgba(255, 255, 255, 0.8);
+    color:#ffffff;
     position: relative;
     z-index: 2;
   } 
   
   .header-content {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
   }
   
   .header-content h1 {
@@ -140,7 +140,7 @@
   }
 
   .header-button {
-    background-color: #4C61EEff;
+    background-color: #48fce9;
     font-family: 'Roboto', monospace;
     color: white;
     font-size: 18px;
@@ -153,7 +153,7 @@
   }
   
   .header-button:hover {
-    background-color: rgb(0, 217, 225); /* Change the background color on hover */
+    background-color: #fe9850; /* Change the background color on hover */
   }
   
   section {
@@ -211,7 +211,7 @@
   
   .scroll-arrow {
     font-size: 32px;
-    color: rgb(0, 217, 225);
+    color: #48fce9;
     text-decoration: none;
     position: absolute;
     bottom: 20px;
@@ -222,7 +222,7 @@
   }
 
   .scroll-arrow:hover {
-    color: rgb(46, 163, 151) /* Change the color when hovered */
+    color: #fe9850 /* Change the color when hovered */
   }
   
   @keyframes bounce {
@@ -278,7 +278,7 @@ footer {
 .social-icon,
 .footer-links a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-size: 18px;
   transition: color 0.3s ease;
   display: flex;
@@ -291,7 +291,7 @@ footer {
 
 .social-icon:hover,
 .footer-links a:hover {
-  color: #48FCE9ff  /* Change the color when hovered */
+  color: #fe9850  /* Change the color when hovered */
 }
 
 /* Scroll to Top */
@@ -301,7 +301,7 @@ footer {
   bottom: 20px;
   right: 20px;
   color: #ffffff;
-  background-color: #48FCE9ff ;
+  background-color: #48fce9;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -315,7 +315,7 @@ footer {
 }
 
 .scroll-to-top:hover {
-  background-color: rgb(48, 164, 152);
+  background-color: #fe9850;
 }
 
 
@@ -429,7 +429,7 @@ footer {
   .header-button-link {
     text-decoration: none;
     color: white; /* Change the color to your desired color */
-    background-color: rgb(59, 190, 177); /* Change the background color to your desired color */
+    background-color: #48fce9; /* Change the background color to your desired color */
     padding: 10px 20px;
     border-radius: 5px;
     margin-right: 10px; /* Adjust the margin as needed */
@@ -437,7 +437,7 @@ footer {
     display: inline-block;
   }
   .header-button-link:hover {
-    background-color: rgb(37, 130, 120) /* Change the hover background color to your desired color */
+    background-color: #fe9850 /* Change the hover background color to your desired color */
   } 
 
 /* Website Tinting in Safari */ 
