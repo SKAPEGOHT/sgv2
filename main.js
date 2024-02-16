@@ -54,7 +54,6 @@ customElements.define('my-header', MyHeader);
 class MyFavicon extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `  
-        <link rel="icon" href="http://www.skapegoht.com/favicon.ico?v=2" />
         <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0/favicon-16x16.png">
@@ -85,6 +84,17 @@ class CustomFont extends HTMLElement {
 }
 
 customElements.define('custom-font', CustomFont);
+
+//Theme Color for Mobile Browsers etc. 
+class ThemeColor extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `  
+        <meta name="theme-color" content="#000000" />
+        `;
+    }
+}
+
+customElements.define('theme-color', ThemeColor);
 
 //Footer Code
 class MyFooter extends HTMLElement {
