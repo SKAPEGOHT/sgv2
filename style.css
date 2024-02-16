@@ -445,4 +445,11 @@ footer {
   body {
     background-color: #000000; /* Match the background color of the nav bar */
   }
+} 
+
+/*Freebie Text*/ 
+
+.freebie-text { 
+  color: #ffffff;
+
 }
