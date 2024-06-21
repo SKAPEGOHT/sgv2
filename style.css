@@ -45,7 +45,7 @@
     height: 40px; /* Adjust the height to fit your design */
     width: auto;
     transition: opacity 0.3s ease; /* Add a smooth transition for the opacity */
-  }
+  } 
   
   .logo-hover {
     opacity: 0;
@@ -140,7 +140,7 @@
   }
 
   .header-button {
-    background-color: #48fce9;
+    background-color:  #02A191;
     font-family: 'Roboto', monospace;
     color: white;
     font-size: 18px;
@@ -211,7 +211,7 @@
   
   .scroll-arrow {
     font-size: 32px;
-    color: #48fce9;
+    color:  #02A191;
     text-decoration: none;
     position: absolute;
     bottom: 20px;
@@ -301,7 +301,7 @@ footer {
   bottom: 20px;
   right: 20px;
   color: #ffffff;
-  background-color: #48fce9;
+  background-color:  #02A191;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -429,7 +429,7 @@ footer {
   .header-button-link {
     text-decoration: none;
     color: white; /* Change the color to your desired color */
-    background-color: #48fce9; /* Change the background color to your desired color */
+    background-color: #02A191; /* Change the background color to your desired color */
     padding: 10px 20px;
     border-radius: 5px;
     margin-right: 10px; /* Adjust the margin as needed */
