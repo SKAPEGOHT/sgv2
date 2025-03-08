@@ -16,11 +16,11 @@ class MyHeader extends HTMLElement {
                 </div>
                 <ul class="nav-links">
                     <li><a href="index.html"><i class="fas fa-home"></i>&nbspHome</a></li>
-                    <li><a href="store.html"><i class="fa-solid fa-bag-shopping"></i>&nbspStore</a></li> 
-                    <li><a href="blog.html"><i class="fa-solid fa-book"></i>&nbspBlog</a></li>
-                    <li><a href="music.html"><i class="fa-solid fa-music"></i>&nbspMusic</a></li>
+                    <!--<li><a href="store.html"><i class="fa-solid fa-bag-shopping"></i>&nbspStore</a></li>-->
+                    <!--<li><a href="blog.html"><i class="fa-solid fa-book"></i>&nbspBlog</a></li>-->
+                    <!--<li><a href="music.html"><i class="fa-solid fa-music"></i>&nbspMusic</a></li>-->
                     <li><a href="freebies.html"><i class="fa-solid fa-cloud-arrow-down"></i>&nbspFreebies</a></li>
-                    <li><a href="projects.html"><i class="fa-solid fa-code"></i>&nbspProjects</a></li>
+                    <!--<li><a href="projects.html"><i class="fa-solid fa-code"></i>&nbspProjects</a></li>-->
                     <li><a href="https://mailchi.mp/c0633f8de561/skapegoht"><i class="fa-solid fa-envelope"></i>&nbspSign Up</a></li>
                     <li><a href="about.html"><i class="fa-solid fa-address-card"></i>&nbspAbout</a></li>
                 </ul>
@@ -122,7 +122,7 @@ class MyFooter extends HTMLElement {
                     </a>
                 </div>
                 <div class="copyright">
-                    Copyright &copy; SKAPEGOHT 2024
+                    Copyright &copy; SKAPEGOHT 2025
                 </div>
             </footer>
         `;
