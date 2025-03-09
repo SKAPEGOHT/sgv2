@@ -104,7 +104,7 @@ class MyFooter extends HTMLElement {
                 <div class="footer-links">
                     <!--<a href="store.html">Store</a>-->
                     <a href="https://mailchi.mp/c0633f8de561/skapegoht">Sign Up</a>
-                    <a href="contact.html">Contact</a>
+                    <!--<a href="contact.html">Contact</a>-->
                     <a href="about.html">About</a>
                 </div>
                 <div class="social-media">
